@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "front-AltakafouliaMobile",
-    "slug": "front-AltakafouliaMobile",
+    "name": "altakafulia",
+    "slug": "takafoulia-projetmovile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,17 +11,34 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.moemenhassine.altakafulia"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.moemenhassine.altakafulia"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cdffc8ae-5356-49cb-96c8-90c485afff59"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/227d29ad-cca4-41bb-9c35-7c41000e2c0b"
+    },
+    "owner": "organisation"
   }
 }
