@@ -26,6 +26,10 @@ import Signup from "../screens/AuthentificationScreens/Signup";
 import SideBar from "../screens/SideBar/SideBar";
 import BottomTabNavigation from "./BottomTabNavigation";
 import Parinage from "../screens/ParinageScreens/Parinage";
+import { enableScreens } from 'react-native-screens';
+
+enableScreens();
+
 const Stack = createStackNavigator();
 
 const HomeStackNavigator = () => {

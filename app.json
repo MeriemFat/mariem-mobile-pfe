@@ -1,13 +1,13 @@
 {
   "expo": {
     "name": "altakafulia",
-    "slug": "takafoulia-projetmovile",
+    "slug": "atakafoulia",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,7 +20,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logo.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.moemenhassine.altakafulia"
@@ -30,7 +30,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "cdffc8ae-5356-49cb-96c8-90c485afff59"
+        "projectId": "c87ecb05-d44f-4077-a4c7-5c508609cd13"
       }
     },
     "runtimeVersion": {
@@ -39,6 +39,6 @@
     "updates": {
       "url": "https://u.expo.dev/227d29ad-cca4-41bb-9c35-7c41000e2c0b"
     },
-    "owner": "organisation"
+    "owner": "meriem123fat"
   }
 }

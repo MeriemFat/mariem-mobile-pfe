@@ -22,6 +22,9 @@ import ModifierQuittance from "../screens/QuittanceScreens/ModifierQuittance";
 import Produit from "../screens/Categories/Produit";
 import MenuButton from "../screens/DrawerContainer/MenuButton";
 import ContraDetails from "../screens/ContratScreens/ContratDetails";
+import { enableScreens } from 'react-native-screens';
+
+enableScreens();
 const Stack = createStackNavigator();
 
 function  MainNavigator() {

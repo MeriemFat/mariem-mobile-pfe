@@ -50,7 +50,7 @@ const Login = (props) => {
 
       AsyncStorage.setItem('token', response.data.accessToken);
       AsyncStorage.setItem('user', JSON.stringify(response.data.user));
-      props.navigation.navigate('SideBar');
+      props.navigation.navigate("Services");
     } catch (error) {
       console.error(error);
       if (error.response) {
